@@ -1,1 +1,17 @@
-{}
+{
+  "Layout": {
+    "NavigationBar": {
+      "Links": {
+        "shop": "COMPRAR",
+        "about": "SOBRE",
+        "journal": "JORNAL",
+        "search": "PESQUISAR",
+        "cart": "CARRINHO (0)",
+        "user": "USUÁRIO"
+      },
+      "Logo": {
+        "description": "Torrefadores de Café"
+      }
+    }
+  }
+}
