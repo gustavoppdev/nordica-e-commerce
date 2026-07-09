@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import NavigationBar from "@/components/layout/NavigationBar";
 
 const maisonNeue = localFont({
   src: [
@@ -17,6 +18,11 @@ const maisonNeue = localFont({
     {
       path: "../../assets/fonts/Maison_Neue_Book.ttf",
       weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/Maison_Neue_Medium.ttf",
+      weight: "500",
       style: "normal",
     },
     {
@@ -62,7 +68,10 @@ export default async function RootLayout({ children, params }: Props) {
       )}
     >
       <body className="min-h-full flex flex-col">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <NavigationBar />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -1,1 +1,17 @@
-{}
+{
+  "Layout": {
+    "NavigationBar": {
+      "Links": {
+        "shop": "SHOP",
+        "about": "ABOUT",
+        "journal": "JOURNAL",
+        "search": "SEARCH",
+        "cart": "CART (0)",
+        "user": "USER"
+      },
+      "Logo": {
+        "description": "Coffee Roasters"
+      }
+    }
+  }
+}
