@@ -13,5 +13,15 @@
         "description": "Coffee Roasters"
       }
     }
+  },
+  "Sections": {
+    "Hero": {
+      "title": "Specialty coffee.<break> Thoughtfully sourced, expertly roasted.</break>",
+      "description": "We partner with farmers who care for the land as much as we care about flavour.",
+      "buttons": {
+        "shop": "SHOP COFFEE",
+        "learnMore": "LEARN MORE"
+      }
+    }
   }
 }
