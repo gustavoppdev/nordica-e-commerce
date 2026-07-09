@@ -13,5 +13,15 @@
         "description": "Torrefadores de Café"
       }
     }
+  },
+  "Sections": {
+    "Hero": {
+      "title": "Cafés especiais.<break> Pensados com carinho, torrados com maestria.</break>",
+      "description": "Trabalhamos com agricultores que cuidam da terra tanto quanto nós cuidamos do sabor.",
+      "buttons": {
+        "shop": "COMPRAR CAFÉS",
+        "learnMore": "SAIBA MAIS"
+      }
+    }
   }
 }
